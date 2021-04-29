@@ -1,3 +1,23 @@
+# TO Start Kafka Cluster like
+Zookeeper
+Broker Server
+Scheme Restry
+Rest Http Proxy
+
+**Use below script to run **
+avroKafkaProducer\kafka-docker> docker-compose up
+
+It will bring Kafka cluster up then runn producer & consumer
+Kafka Development Environment:
+http://localhost:3030
+
+Scheme Resitry access:
+http://localhost:8081
+
+Rest Http Proxt access:
+http://localhost:8082/
+
+
 #Lombok in Eclipse(for refrence https://www.baeldung.com/lombok-ide)
 
 If we're using Eclipse IDE, we need to get the Lombok jar first. The latest version is located on Maven Central. For our example, we're using lombok-1.18.4.jar.
